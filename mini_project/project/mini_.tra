@@ -1,0 +1,23 @@
+*** Creating Trace Output File 'mini_.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"uart_lcd_test.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"eeprom.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" "uart_lcd_test.o" "i2c.o" "eeprom.o" --strict --scatter "mini_.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\mini_.map" -o mini_.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'mini_.axf'
+### ADS-LD Command File: 'mini_.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'mini_.lnp', Handle=0x00000ABC
+### Writing '.lnp' file
+### ADS-LD Command file 'mini_.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

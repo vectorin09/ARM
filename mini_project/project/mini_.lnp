@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main.o" "uart_lcd_test.o" "i2c.o" "eeprom.o" --strict --scatter "mini_.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\mini_.map" -o mini_.axf
